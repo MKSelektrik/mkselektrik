@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Benim Web Sitem</title>
+    <title>Firmamız - Elektrik ve Bungalov Hizmetleri</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -19,40 +19,70 @@
         }
         main {
             padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #0056b3;
         }
         footer {
             background-color: #333;
             color: white;
             text-align: center;
             padding: 10px 0;
-            position: fixed;
             width: 100%;
-            bottom: 0;
+            position: relative;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Elektrik ve Bungalov Evler</h1>
+        <h1>Firmamız - Elektrik ve Bungalov Hizmetleri</h1>
     </header>
 
     <main>
-        <h2>Hoşgeldiniz!</h2>
-        <p>Burada elektrik projelerimizi ve bungalov evlerimizi görebilirsiniz.</p>
+        <!-- Elektrik İşleri -->
+        <section class="section">
+            <h2>Elektrik Hizmetlerimiz</h2>
+            <p>Profesyonel elektrik işleri, tesisat ve bakım hizmetleri sunuyoruz. Büyük projeleriniz için bizimle iletişime geçebilirsiniz.</p>
+            <a href="iletisim.html" class="button">İletişim</a>
+        </section>
+
+        <!-- Bungalov Evler -->
+        <section class="section">
+            <h2>Bungalov Evlerimiz</h2>
+            <p>Doğayla iç içe, konforlu bungalov evlerimizde konaklamak için rezervasyon yapabilirsiniz.</p>
+            <a href="bungalov.html" class="button">Bungalovları Gör</a>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Benim Web Sitem</p>
+        <p>&copy; 2025 Firmamız - Tüm Hakları Saklıdır.</p>
     </footer>
-    <header>
-    <h1>Elektrik ve Bungalov Evler</h1>
-    <nav>
-        <a href="index.html">Ana Sayfa</a> | 
-        <a href="bungalov.html">Bungalov Evlerimiz</a>
-    </nav>
-</header>
-
 
 </body>
 </html>
